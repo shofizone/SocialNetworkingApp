@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <social.shofizone.com.networking.Utilities.SquareImageView
+        android:id="@+id/grid_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:scaleType="center"
+        app:srcCompat="@drawable/ic_a_blue" />
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/grid_view_progressBar"-->
+        <!--style="?android:attr/progressBarStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true" />-->
+
+    <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/grid_view_progressBar"
+        style="@style/SpinKitView.Small.FadingCircle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        app:SpinKit_Color="@color/colorPrimaryDark" />
+</RelativeLayout>

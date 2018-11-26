@@ -1,0 +1,203 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rel1edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff">
+
+            <ImageView
+                android:id="@+id/edit_profile_photo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_profile3" />
+
+            <TextView
+                android:id="@+id/tv_edit_profile_chae_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_profile_photo"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/oxygen_light"
+                android:padding="10dp"
+
+                android:text="Change Photo"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_edit_profile_chae_photo"
+                android:layout_centerInParent="true"
+                android:text="General Info"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/relative2edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/change_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edti_profile_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative3edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relative2edit_profile"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edit_profile_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Username" />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative4edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/relative3edit_profile"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edit_profile_description_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="start"
+                        android:hint="Description"
+                        android:inputType="textMultiLine" />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative5edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relative4edit_profile"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp">
+
+
+
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/change_bio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edit_profile_biodata"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Biodata" />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textPrivateInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative5edit_profile"
+
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="Private Info"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/relative6edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textPrivateInfo"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/edit_profile_change_emal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edit_profile_profile_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email: " />
+                </android.support.design.widget.TextInputLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative7edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relative6edit_profile"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/change_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edit_profile_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Phone: "
+                        android:phoneNumber="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</merge>

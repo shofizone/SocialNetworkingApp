@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Social Networking</string>
+    <string name="don_t_have_account_sign_up">Don\'t have an account ? Sign Up!</string>
+
+    <!--Fire Base-->
+
+    <string name="user_db">user</string>
+    <string name="user_account_settings">user_account_settings</string>
+    <string name="dbms_user_status">user_status</string>
+    <string name="dbms_status">status</string>
+    <string name="dbname_following">following</string>
+    <string name="dbname_followers">followers</string>
+
+
+
+    <string name="new_photo">new_photo</string>
+    <string name="profile_photo">profilephoto</string>
+
+
+
+    <!--Fragments-->
+    <string name="view_post_fragment">View Post</string>
+    <string name="view_profile_fragment">View Profile Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+
+    <!--Intent Extras-->
+    <string name="calling_activity">calling_activity</string>
+    <string name="profile_activity">profile_activity</string>
+    <string name="selected_image">selected_image</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+    <string name="return_to_fragment">return_to_fragment</string>
+    <string name="search_activity">search_activity</string>
+    <string name="home_activity">Home Activity</string>
+    <string name="intent_user">intent_user</string>
+
+
+
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="sign_out">Sign Out</string>
+
+
+    <!--fields -->
+    <string name="field_username">username</string>
+    <string name="field_display_name">displayname</string>
+    <string name="field_description">description</string>
+    <string name="field_bio_data">biodata</string>
+    <string name="field_phone_number">phonenumber</string>
+    <string name="field_user_id">user_id</string>
+
+
+
+    <!--Bundle agrs name  -->
+    <string name="activity_number">activity_number</string>
+
+
+
+    <string name="gallery">GALLERY</string>
+    <string name="photo">PHOTO</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="string_next">Next</string>
+    <string name="share">Share</string>
+
+
+</resources>

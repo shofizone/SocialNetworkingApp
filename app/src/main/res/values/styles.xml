@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/OxygenTvStyle</item>
+        <item name="android:buttonStyle">@style/OxygenButtonStyle</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+
+    <style name="OxygenTvStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/oxygen</item>
+    </style>
+
+    <style name="OxygenButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/oxygen_light</item>
+    </style>
+
+
+
+</resources>

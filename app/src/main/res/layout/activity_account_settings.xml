@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_viewpager_center"/>
+
+    <RelativeLayout
+        android:id="@+id/rele1_activity_account_setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffffff">
+
+        <RelativeLayout
+            android:id="@+id/rele1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/profile_setting_top_bar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rele2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rele1">
+
+            <include layout="@layout/profile_setting_center" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/bottom_nav_bar" />
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

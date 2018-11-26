@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "405439709384",
+    "firebase_url": "https://anondo-b8270.firebaseio.com",
+    "project_id": "anondo-b8270",
+    "storage_bucket": "anondo-b8270.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405439709384:android:8e95dd142bbf19b1",
+        "android_client_info": {
+          "package_name": "anondo.shofizone.com.anondo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405439709384-qe72jk5hnu5qeisgk85jb30cti6l1t8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anondo.shofizone.com.anondo",
+            "certificate_hash": "15dcdf8c143257e630eb5dac17627f5f8bf69975"
+          }
+        },
+        {
+          "client_id": "405439709384-u7su3odnoqtkqb8d8l9kg56v1jl89hhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANhW7bLbO_mHUMZh8PSna8_AbdCyhwo3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405439709384-u7su3odnoqtkqb8d8l9kg56v1jl89hhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative1_gallery_fragment"
+        >
+
+        <!--Gallery toolbar -->
+
+        <include layout="@layout/snippet_top_gallery_toolbar"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear1_gallery_fragment"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:layout_below="@id/relative1_gallery_fragment"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="50">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gallery_image_big"
+                android:scaleType="centerCrop"/>
+
+            <!--progressbar-->
+
+            <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="128dp"
+                app:SpinKit_Color="@color/colorPrimaryDark" />
+
+        </RelativeLayout>
+
+
+        <GridView
+            android:id="@+id/gird_view_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:horizontalSpacing="1.5dp"
+            android:numColumns="3"
+            android:stretchMode="none"
+            android:verticalSpacing="1.5dp">
+
+
+        </GridView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_nav_bar_border">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_toolbar"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_view_close_share_gallery"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/ic_close" />
+
+                <Spinner
+                    android:id="@+id/spinner_directory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/image_view_close_share_gallery"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Gallery"
+                    android:textColor="#000"
+                    android:textSize="20sp">
+
+                </Spinner>
+
+                <TextView
+                    android:id="@+id/tv_next_gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/string_next"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp" />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</merge>
